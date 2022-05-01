@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-from cmath import atan
-from colorsys import rgb_to_hls
 import rospy
 from nav_msgs.msg import Odometry
 from tf.transformations import euler_from_quaternion
